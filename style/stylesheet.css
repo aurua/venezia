@@ -1,0 +1,105 @@
+
+@font-face{
+	font-family:'Nanum Gothic bold'; src:url('../font/NanumGothicBold.woff')
+}
+@font-face{
+	font-family:'Nanum Gothic'; src:url('../font/NanumGothic.woff')
+}
+#bg {
+
+	height:600px;
+	width: 1000px;
+	//display:block;
+	position:absolute;
+	z-index: -1;
+}
+
+#menu {
+	top: 600px;
+	width: 1000px;
+	clear:both;
+	display:block;
+	position:relative;
+	z-index: 10;
+	//background-color:#abcdef;
+}
+
+.word {
+	font-family:'Nanum Gothic';
+	background-color:#eeeeff;
+	font-size:1.3em;
+	position: absolute;
+	z-index: 1;
+}
+
+#gameover {
+	//background-color:#ccccff;
+	font-size:40px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+#start {
+	//padding-top:15px;
+	height:30px;
+	width: auto;
+	position:absolute;
+}
+
+#userInput {
+	
+	font-size:30px;
+	//margin-bottom:10px;
+	left:100px;
+	position:absolute;
+}
+
+.ui {
+	display:inline-block;
+	//background-color:#abcdef;
+}
+#info {
+	top:-15px;
+	left:520px;
+	position:absolute;
+	display:inline;
+	font-size:30px;
+	font-family:'Nanum Gothic bold';
+}
+
+#desc{
+	top:50px;
+	font-family:'Nanum Gothic';
+	font-size:1.3em;
+	position:absolute;
+	display:block;
+
+}
+#toOther{
+	top:100px;
+	display:block;
+	position:absolute;
+	text-decoration:none;
+}
+
+#description {
+	display:inline-block;
+	position:absolute;
+	left:1030px;
+	
+}
+p {
+	font-family:'Nanum Gothic';
+
+}
+
+#red{
+	background-color:#ff8a80;
+}
+#green{
+	background-color:#00ffcc;
+}
+#blue{
+	background-color:#33ccff;
+}

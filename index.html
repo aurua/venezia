@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./style/stylesheet.css">
+		<title>베네치아</title>
+	
+
+
+	</head>
+
+	<body>
+		<div id="main"><img id="bg" src="./image/background.jpg"/>
+			<div id="description">
+				<p id="red">빨강: 폭탄 증가</p>
+				<p id="green">초록: 천천히 </p>
+				<p id="blue">파랑: 위로 </p>
+			</div>
+		</div>
+
+		<div id="menu" class="ui">
+			
+			<div class="ui">
+			<a href=#><img id="start" src="./image/start.png" onclick="initGame()" style="width: 100px; height:auto"/></a>
+			</div>
+			<div class="ui">
+			<input id="userInput" class="ui" type="text" onkeypress="checkAnswer(event)">
+			</div>
+			<p id="info" class="ui">레벨: <span id="level">0</span>
+			   점수: <span id="score">0</span>
+			   목숨: <span id="life">0</span>
+			   폭탄: <span id="bomb">0</span>
+			</p>
+			<p id="desc">폭탄은 '붐' 또는 '폭탄'이라고 입력시 사용가능</p>
+			<a id="toOther" href="./english.html">English Version</a>
+		</div>
+		
+		 <script type="text/javascript" src="./js/wordlist.js"></script>
+		 <script type="text/javascript" src="./js/venezia.js"></script>
+		
+	
+	</body>
+</html>

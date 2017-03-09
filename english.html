@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./style/stylesheet.css">
+		<title>Venezia</title>
+	
+
+
+	</head>
+
+	<body>
+		<div id="main"><img id="bg" src="./image/background.jpg"/>
+			<div id="description">
+				<p id="red">Red: Get a bomb</p>
+				<p id="green">Green: Slower </p>
+				<p id="blue">Blue: Upward </p>
+			</div>
+		</div>
+		<div id="menu">
+			
+			<div class="ui">
+			<a href=#><img id="start" src="./image/start.png" onclick="initGame()" style="width: 100px; height:auto"/></a>
+			</div>
+			<div class="ui">
+			<input id="userInput" type="text" onkeypress="checkAnswer(event)">
+			</div>
+			<p id="info">Level: <span id="level">0</span>
+			   Score: <span id="score">0</span>
+			   Lives: <span id="life">0</span>
+			   Bombs: <span id="bomb">0</span>
+			</p>
+			<p id="desc">You can use a bomb by typing 'boom' or 'bomb'.</p>
+			<a id="toOther" href="./index.html">한글판</a>
+		</div>
+		
+		 <script type="text/javascript" src="./js/wordlist_eng.js"></script>
+		 <script type="text/javascript" src="./js/venezia.js"></script>
+		
+	
+	</body>
+</html>
